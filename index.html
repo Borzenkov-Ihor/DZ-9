@@ -8,6 +8,71 @@
     <title>Test1</title>
 </head>
 <body>
+    <div class="container">
+        <div class="main-container">
+            <h1>Розыскивается Танюша</h1>
+            <div class="img-1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN24JHsPl8bMoMnnbF-yQO_NOlUb_10uFGVg&usqp=CAU"
+                    alt="Танюша">
+            </div>
+            <div class="description-container">
+                <h2>Особые приметы</h2>
+                <ul class="description">
+                    <li>Добрые, большие глаза</li>
+                    <li>Красивая прическа</li>
+                    <li>Королевские манеры</li>
+                    <li>Умение сдерживать эмоции</li>
+                </ul>
+            </div>
+            <hr>
+            <div>
+                <p>Контактные данные:</p>
+                <hr>
+                <div class="contact-blok">
+                    <div> Номер телефона
+                        <a href="tel:+3806666666">+3806666666</a>
+                    </div>
+                    <div> Электронная почта
+                        <a href="mailto:tanjusha@ukr.net">tanjusha@ukr.net</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-container"> 
+            <h3>Ваши контактные данные</h3>
+            <form class="form-countainer">
+                <div>
+                    <label class="label-form" for="you-telephone">Номер телефона</label>
+                    <input class="input-form" id="you-telephone" type="tel">
+                </div><br>
+                <div>
+                    <label class="label-form" for="you-mail">Электронная почта</label>
+                    <input class="input-form" id="you-mail" type="email">
+                </div><br>
+                <div>
+                    <label class="label-form" for="you-name">Как можна к вам обращатся?</label>
+                    <input class="input-form" id="you-name" type="text">
+                </div><br>
+                <div>
+                    <select name="sel-1" id="id-1">
+                        <option disabled selected value="">Выберите тему обращения</option>
+                        <option value="">Я знаю где Танюша</option>
+                        <option value="">Я видел(а) Танюшу, но не знаю где она</option>
+                        <option value="">Я очень хочу увидеть Танюшу - сообщите мне где она, когда найдете</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="text-form2"><u> Коментарий:</u></p>
+                    <textarea name="text-area" id="text-id" placeholder="Поле для ввода текста" cols="45" rows="10"></textarea>
+                </div>
+                <div class="button-form">
+                    <input class="input-button" type="submit">
+                    <input class="reset-button" type="reset">
+                </div>
+            </form>
     
+    
+        </div>
+    </div>
 </body>
 </html>
