@@ -1,0 +1,154 @@
+body, input {
+    margin: 0;
+    background-color: rgb(185, 197, 167);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+img {
+    
+    border: 3px solid green;
+    width: 100%;
+}
+
+h2 {
+    color: chocolate;
+    text-align: center;
+}
+
+.main-container, .contact-container {
+    background-color: rgb(192, 206, 231);
+    border: 2px solid crimson;
+    display: flex;
+    flex-direction: column;   
+    min-width: 420px;
+    width: 30%;
+}
+
+
+
+.description-container {
+    margin-left: 10px;
+}
+
+.label-form, .input-form {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.label-form {
+
+    margin: 5px 20px 0 0;
+}
+
+.input-form {
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: -22px 19px 24px 6px rgba(73, 82, 133, 0.2); 
+    border: 3px solid blueviolet;  
+    float: right; 
+}
+
+
+
+.contact-container {
+    width: 30%;
+    vertical-align: top;
+    border:2px solid rgb(223, 191, 9);
+    background-color: rgb(107, 155, 37);
+    border-radius: 8px;
+    
+}
+p {
+    margin-left: 20px;
+    color: indigo;
+}
+.contact-blok {
+      width: 400px;
+      margin: 10px;      
+      display: inline-block;
+      vertical-align: middle;
+      
+}
+
+.button-form {
+    margin: 20px;
+    float: right;
+    
+    
+}
+* {
+    box-sizing: border-box;
+}
+textarea {
+    margin: 3px 20px 20px 20px;
+    border: 2px solid rgb(129, 83, 83);
+    cursor: text;
+    width: 80%;
+}
+h3 {
+    margin: 20px 0 20px 30px;
+}
+.form-countainer {
+    margin: 0 0 0 20px;
+}
+.text-form2 {
+    color: black;
+    
+}
+.input-button, .reset-button {
+    border: 2px solid rgb(61, 43, 226);
+    border-radius: 5px;
+    padding: 4px;
+    
+}
+
+.reset-button {
+    color: crimson;
+}
+
+select {
+    border-radius: 5px;
+    color: rgb(112, 16, 112);
+    border: 3px solid black;
+    width: 80%;
+    margin: 10px 30px 10px 0;
+}
+
+@media(max-width:800px) {
+    .container {
+        flex-direction: column;   
+    }
+
+    .main-container, .contact-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+}
+
+@media(max-width:400px) {
+    .container {
+        flex-direction: column;   
+        
+    }
+    .main-container, .contact-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+}
