@@ -35,8 +35,6 @@ h2 {
     width: 30%;
 }
 
-
-
 .description-container {
     margin-left: 10px;
 }
@@ -61,16 +59,14 @@ h2 {
     float: right; 
 }
 
-
-
 .contact-container {
     width: 30%;
     vertical-align: top;
     border:2px solid rgb(223, 191, 9);
     background-color: rgb(107, 155, 37);
-    border-radius: 8px;
-    
+    border-radius: 8px;   
 }
+
 p {
     margin-left: 20px;
     color: indigo;
@@ -79,8 +75,7 @@ p {
       width: 400px;
       margin: 10px;      
       display: inline-block;
-      vertical-align: middle;
-      
+      vertical-align: middle;      
 }
 
 .button-form {
@@ -134,21 +129,18 @@ select {
     .main-container, .contact-container {
         width: 100%;
         display: flex;
-        justify-content: flex-start;
-        
+        justify-content: flex-start;    
     }
 }
 
 @media(max-width:400px) {
     .container {
-        flex-direction: column;   
-        
+        flex-direction: column;          
     }
     .main-container, .contact-container {
         width: 100%;
         display: flex;
-        justify-content: flex-start;
-        
+        justify-content: flex-start;        
     }
 
     
